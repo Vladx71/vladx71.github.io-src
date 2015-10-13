@@ -6,6 +6,9 @@ AUTHOR = u'Vladx71'
 SITENAME = u'Vladx71 Github Pages'
 SITEURL = ''
 
+PLUGIN_PATHS = ['/home/vlad/git/pelican-plugins']
+PLUGINS = ['gravatar' , 'sitemap' , 'always_modified' , 'disqus_static' ,'encrypt-content' , 'gallery' , 'pdf' , 'pelican_youtube' , 'pelican_vimeo' , 'pin_to_top' , 'tag_cloud']
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
@@ -13,21 +16,21 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+FEED_ALL_ATOM = yes
+CATEGORY_FEED_ATOM = yes
+TRANSLATION_FEED_ATOM = yes
+AUTHOR_FEED_ATOM = yes
+AUTHOR_FEED_RSS = yes
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
