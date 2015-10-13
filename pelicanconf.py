@@ -16,11 +16,11 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = yes
-CATEGORY_FEED_ATOM = yes
-TRANSLATION_FEED_ATOM = yes
-AUTHOR_FEED_ATOM = yes
-AUTHOR_FEED_RSS = yes
+FEED_ALL_ATOM = True 
+CATEGORY_FEED_ATOM = True
+TRANSLATION_FEED_ATOM = True
+AUTHOR_FEED_ATOM = True
+AUTHOR_FEED_RSS = True
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
