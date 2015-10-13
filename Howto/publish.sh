@@ -1,5 +1,6 @@
 cd /home/vlad/git/ghpages/
 #make html && make serve
+make html
 make publish
 cd output
 git add .
