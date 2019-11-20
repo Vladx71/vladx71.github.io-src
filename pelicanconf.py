@@ -6,8 +6,9 @@ AUTHOR = u'Vladx71'
 SITENAME = u'Vladx71 Github Pages'
 SITEURL = ''
 
-PLUGIN_PATHS = ['/home/vlad/git/pelican-plugins/']
-PLUGINS = ['gravatar' , 'sitemap' , 'always_modified' , 'encrypt_content' , 'gallery' , 'pelican_youtube' , 'pelican_vimeo' , 'pin_to_top' , 'tag_cloud']
+PLUGIN_PATHS = ['/Users/vlad/git/pelican-plugins/']
+#PLUGIN_PATHS = ['/home/vlad/git/pelican-plugins/']
+PLUGINS = ['gravatar' , 'sitemap' , 'always_modified' ,  'gallery' ,   'pin_to_top' , 'tag_cloud']
 SITEMAP = {'format':'xml'}
 
 ENCRYPT_CONTENT = {
@@ -18,7 +19,7 @@ ENCRYPT_CONTENT = {
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Budapest'
 
 DEFAULT_LANG = u'en'
 
